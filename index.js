@@ -7,14 +7,14 @@ dotenv.config();
 
 connectDB();
 
-const app = express();
+const app = express(); 
 
 
 // middleware 
 app.use(express.json());
 
 // routes 
-// app.use('/api/users', require('./routes/userRoutes'));
+app.use('/api/users', require('./routes/userRoutes'));
 
 
 const PORT = process.env.PORT || 9000;
