@@ -14,6 +14,7 @@ app.use(express.json());
 
 // routes 
 app.use('/api/users', require('./routes/userRoutes'));
+app.use('/api/posts', require('./routes/postRoutes'));
 
 
 const PORT = process.env.PORT || 9000;
