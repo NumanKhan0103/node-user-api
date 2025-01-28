@@ -2,7 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./database/database');
 
-
+// load environment variables
 dotenv.config();
 
 connectDB();
