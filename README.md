@@ -38,7 +38,7 @@ Ensure you have the following installed:
 3. Configure environment variables:
    Create a `.env` file in the root of your project and add the following variables:
    ```env
-   PORT=3000
+   PORT=9000
    MONGO_URI=<your-mongodb-connection-string>
    ```
 
